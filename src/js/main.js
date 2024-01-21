@@ -23,10 +23,10 @@ const clearCRM = () => {
 }
 
 const generateCRM = data => {
-	const data = JSON.parse(data)
+	const db = JSON.parse(db)
 	const a = document.createElement('table')
 	const z = document.createElement('ul')
-	data['views'].forEach((view) => {
+	db['views'].forEach((view) => {
 		const el = document.createElement('li')
 		el.innerText = view
 		z.append(el)
