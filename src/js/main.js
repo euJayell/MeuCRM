@@ -23,7 +23,7 @@ const clearCRM = () => {
 }
 
 const generateCRM = data => {
-	const db = JSON.parse(db)
+	const db = JSON.parse(data)
 	const a = document.createElement('table')
 	const z = document.createElement('ul')
 	db['views'].forEach((view) => {
