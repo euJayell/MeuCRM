@@ -1,0 +1,7 @@
+{
+	'leads': {
+		'tabs': ['id', 'status', 'nome', 'cargo', 'vocativo', 'email', 'celular', 'instagram', 'empresa', 'cnpj', 'nicho', 'estratégia', 'origem', 'nascimento', 'morte', 'contratos', 'capital total', 'tempo total'],
+		'contats': []
+	},
+	'views': ['leads']
+}
